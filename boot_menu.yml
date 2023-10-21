@@ -1,0 +1,11 @@
+ublue_variants:
+  - label: eyecantcu/cinnamon
+    ks: /kickstart/ublue-os.ks
+    flavors:
+      - label: cinnamon
+        info: Cinnamon
+  - label: eyecantcu/cinnamon-nvidia
+    ks: /kickstart/ublue-os-nvidia.ks
+    flavors:
+      - label: cinnamon-nvidia
+        info: Cinnamon (Nvidia)
