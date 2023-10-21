@@ -50,7 +50,6 @@
                 "pipewire-pulseaudio",
                 "powerline",
                 "qgnomeplatform-qt5",
-                "raw-thumbnailer",
                 "redshift-gtk",
                 "sane-backends-drivers-scanners",
                 "setroubleshoot",
@@ -78,7 +77,18 @@
     "37": {
         "include": {
             "all": [
+                "raw-thumbnailer"
 	    ]
+        },
+        "exclude": {
+            "all": []
+        }
+    },
+    "38": {
+        "include": {
+            "all": [
+                "raw-thumbnailer"
+            ]
         },
         "exclude": {
             "all": []
@@ -89,8 +99,7 @@
             "all": []
         },
         "exclude": {
-            "all": [
-	    ]
+            "all": []
         }
     }
 }
