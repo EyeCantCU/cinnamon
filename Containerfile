@@ -15,7 +15,6 @@ RUN /tmp/build.sh && \
     pip install --prefix=/usr yafti && \
     rm -rf /tmp/* /var/* && \
     systemctl enable lightdm && \
-    systemctl enable ublue-lightdm-workaround && \
     systemctl enable touchegg && \
     ostree container commit && \
     mkdir -p /var/tmp && \
